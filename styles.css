@@ -1,0 +1,544 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#tanque{
+    display: block;
+    margin-top: 100px;
+    margin-left: -200px;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    margin-top: 743px;
+    margin-left: 750px;
+    margin-bottom: 100px;
+    border: 5px solid #1f1e1e;
+}
+
+.button{
+    display: block;
+    position: absolute;
+    background-color:green;
+    padding: 20px;
+    width: 100px;
+    margin-top: -740px;
+    margin-left: 951px;
+    border-radius: 50px;
+    transition: all 300ms;
+}
+
+.button a{
+    position: absolute;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button:hover{
+    background-color: rgb(12, 70, 12);
+}
+
+#tanque .casco{
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    padding-left: 150px;
+    margin-left: 50%;
+   background-color: rgb(10, 56, 10);
+   box-shadow: 0px 0px 7px inset black;
+}
+/*INICIO PARTES DE LA CABEZA*/
+#tanque .casco .blanco{
+   position: absolute;
+   display: block;
+   width: 100px;
+   height: 50px;
+   margin: 100px;
+   margin-top: 179px;
+   margin-left: 41%;
+   background-color: white;
+}
+
+#tanque .casco .piezas{
+    position: absolute;
+    display: block;
+    background-color: green;
+    width: 89px;
+   height: 9px;
+   margin: 100px;
+   margin-top: 130px;
+   margin-left: -28%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 5px black;
+ }
+
+ #tanque .casco .piezas2{
+    position: absolute;
+    display: block;
+    background-color: green;
+    width: 89px;
+   height: 9px;
+   margin: 100px;
+   margin-top: 60px;
+   margin-left: -28%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 5px black;
+}
+
+#tanque .casco .piezas-cabeza{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background-color: rgb(12, 80, 12);
+    display: block;
+    margin-top: -40px;
+    margin-left: -70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#tanque .casco .piezas-cabeza2{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background-color: rgb(14, 71, 14);
+    display: block;
+    margin-top: -40px;
+    margin-left: -30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#tanque .casco .piezas-cabeza3{
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background-color: rgb(15, 109, 15);
+    display: block;
+    margin-top: -24px;
+    margin-left: -70px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#tanque .casco .piezas-cabeza4{
+    position: absolute;
+    width: 10px;
+    height: 25px;
+    background-color: rgb(15, 109, 15);
+    display: block;
+    margin-top: -24px;
+    margin-left: -77px;
+    border-top-left-radius: 10px;
+}
+
+#tanque .casco .piezas-cabeza5{
+    position: absolute;
+    width: 10px;
+    height: 25px;
+    background-color: rgb(15, 109, 15);
+    display: block;
+    margin-top: -24px;
+    margin-left: -2px;
+    border-top-right-radius: 10px;
+}
+
+#tanque .casco .piezas-cabeza6{
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 10px;
+    background-color: green;
+    margin-top: -20px;
+    margin-left: 45px;
+}
+
+#tanque .casco .piezas-cabeza7{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background-color: green;
+    margin-top: -20px;
+    margin-left: 37px;
+    border-top-left-radius: 10px;
+}
+
+#tanque .casco .piezas-cabeza8{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background-color: green;
+    margin-top: -20px;
+    margin-left: 115px;
+    border-top-right-radius: 10px;
+}
+
+#tanque .casco .piezas-cabeza9{
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 10px;
+    background-color: green;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+#tanque .casco .piezas-cabeza10{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background-color: green;
+    margin-top: -20px;
+    margin-left: 90px;
+    border-top-left-radius: 10px;
+}
+
+#tanque .casco .piezas-cabeza11{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background-color: green;
+    margin-top: -20px;
+    margin-left: 170px;
+    border-top-right-radius: 10px;
+}
+
+#tanque .casco .abajo{
+    position: absolute;
+    width: 294px;
+    height: 10px;
+    background-color: rgb(12, 70, 12);
+    margin-top: 200px;
+    margin-left: -150px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0px 0px 5px black inset;
+}
+
+/*INICIO CAÑON*/
+
+.cañon .parte1-cañon{
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    background-color: rgb(10, 56, 10);
+    margin-left: 852px;
+    margin-top: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-left: 10px solid rgb(14, 71, 14);
+    border-bottom: 10px solid rgb(14, 71, 14);
+    border-top: 10px solid rgb(14, 71, 14);
+    z-index: 1;
+    box-shadow: 0px 0px 1px black;
+}
+
+.cañon .parte2-cañon{
+    position: absolute;
+    width: 115px;
+    height: 90px;
+    background-color: rgb(10, 56, 10);
+    margin-left: 788px;
+    margin-top: 146px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 20px;
+}
+
+.cañon .parte3-cañon{
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    background-color: rgb(10, 56, 10);
+    margin-left: 552px;
+    margin-top: 169px;
+}
+
+.cañon .parte4-cañon{
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: #525151;
+    margin-left: 783px;
+    margin-top: 169px;
+}
+
+.cañon .parte5-cañon{
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: #525151;
+    margin-left: 621px;
+    margin-top: 169px;
+}
+
+.cañon .parte6-cañon{
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: #525151;
+    margin-left: 700px;
+    margin-top: 169px;
+}
+
+.cañon .parte7-cañon{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    background-color: #525151;
+    margin-left: 550px;
+    margin-top: 169px;
+}
+
+/*FIN CAÑON*/
+
+/*INICIO CUERPO*/
+.cuerpo .parte1-cuerpo{
+    position: absolute;
+width: 700px;
+height: 30px;
+background-color: rgb(10, 56, 10);
+margin-top: 310px;
+margin-left: 45%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.cuerpo .parte2-cuerpo{
+    position: absolute;
+width: 10px;
+height: 30px;
+background-color: #525151;
+margin-top: 310px;
+margin-left: 48%;
+}
+
+.cuerpo .parte3-cuerpo{
+    position: absolute;
+width: 10px;
+height: 30px;
+background-color: #525151;
+margin-top: 310px;
+margin-left:54%;
+}
+
+.cuerpo .parte4-cuerpo{
+    position: absolute;
+width: 10px;
+height: 30px;
+background-color: #525151;
+margin-top: 310px;
+margin-left:60%;
+}
+
+.cuerpo .parte5-cuerpo{
+    position: absolute;
+width: 10px;
+height: 30px;
+background-color: #525151;
+margin-top: 310px;
+margin-left:66%;
+}
+
+.cuerpo .parte6-cuerpo{
+    position: absolute;
+width: 300px;
+height: 30px;
+background-color: #525151;
+margin-top: 310px;
+margin-left:66%;
+border-top-right-radius: 10px;
+}
+
+.cuerpo .parte7-cuerpo{
+    position: absolute;
+width: 300px;
+height: 10px;
+background-color: #3b3939;
+margin-top: 330px;
+margin-left:66%;
+}
+
+.cuerpo .parte8-cuerpo{
+    position: absolute;
+width: 50px;
+height: 50px;
+background-color: #525151;
+margin-top: 310px;
+margin-left:81%;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 70px;
+border-top-right-radius: 40px;
+}
+
+.cuerpo .subcuerpo{
+    position: absolute;
+    width: 790px;
+    height: 30px;
+    background-color: #3b3939;
+    border-top: 5px solid #1f1e1e;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 5px black inset;
+    margin-top: 334px;
+    margin-left: 43%;
+    z-index: 1;
+}
+
+/*FIN CUERPO*/
+
+/*INICIO RUEDAS*/
+
+.ruedas{
+    margin-top: -10px;
+    z-index: 1;
+}
+
+
+.ruedas .cadenas{
+    position: absolute;
+    width: 810px;
+    height: 158px;
+    background-color: #3b3939;
+    margin-top: 19%;
+    margin-left: 43%;
+    border: 5px solid #1f1e1e;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.ruedas .rueda1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 835px;
+    margin-top: 374px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+.ruedas .rueda2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 909px;
+    margin-top: 455px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda3{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 1020px;
+    margin-top: 455px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda4{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 1493px;
+    margin-top: 455px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda5{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 1133px;
+    margin-top: 455px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda6{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 1251px;
+    margin-top: 455px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda7{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 1370px;
+    margin-top: 455px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda8{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    margin-left: 1535px;
+    margin-top: 374px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda9{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 1010px;
+    margin-top: 374px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda10{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 1200px;
+    margin-top: 374px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+.ruedas .rueda11{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 1420px;
+    margin-top: 374px;
+    background-color: #525151;
+    border-radius: 100px;
+}
+
+
+
+
+/*FIN RUEDAS*/
